@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f0f8ff;
+}
+
+.heading {
+    text-align: center;
+    font-family: cursive;
+}
+
+.title {
+    font-size: 5rem;
+    padding: 1rem 0;
+    color: #7fd5ea;
+}
+
+.sub-title {
+    padding: 1rem 0;
+}
+
+.icon {
+    height: 20%;
+}
+
+hr {
+    margin: 1rem 0;
+    border: none;
+}
+
+p {
+    font-weight: bold;
+}
+
+code {
+    color: #ea7f7f;
+    padding: 5px;
+}
