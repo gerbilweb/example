@@ -1,2 +1,4 @@
 .idea/
+server
+server.exe
 public/index.wasm
