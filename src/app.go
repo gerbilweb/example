@@ -19,7 +19,7 @@ func (component *App) Render() string {
 		<hr />
 		
 		<p>
-			Edit <code>app.go</code> to change html markup and <code>layout.go</code> to change component layout
+			Edit <code>app.go</code> to get started!
 		</p>
 	</div>
 	<footer></footer>
