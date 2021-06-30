@@ -7,5 +7,7 @@ import (
 
 func main() {
 	app := gerbil.New()
-	app.RenderComponent(&src.App{})
+	defer app.Run()
+
+	app.Route("/", &src.App{})
 }
